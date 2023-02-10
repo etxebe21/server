@@ -1,7 +1,7 @@
 <?php
-    require_once (__DIR__."/../model/Classic.php");
+    require_once (__DIR__."/../model/Highscores.php");
 
     //Creamos nuestros modelos
-    $classic = new Classic();
+    $highscore = new Highscores();
 
     ?>
