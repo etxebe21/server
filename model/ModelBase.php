@@ -73,7 +73,7 @@ class ModelBase extends Conexion
 //$condition: condicion de busqueda (WHERE) Si no se pasa este parametro se entiende que no hay condicion de busqueda
 protected function selectDB($table, $columns = "*", $name = "" , $value = "")
 {
-    $query = "SELECT $columns FROM $table";
+    $query = "SELECT $columns FROM $table ORDER BY score DESC";
     if($name != "" && $value != "")
         $query .= " WHERE $name = '$value'";
 
