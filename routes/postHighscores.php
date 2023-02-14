@@ -2,8 +2,8 @@
     require_once (__DIR__."/../controller/Controller.php");
 
     //TEST POST ROUTE. Quitar posteriormente
-    $_POST['name'] = 'HAA';
-    $_POST['score'] = '9500';
+    $_POST['name'] = 'OSC';
+    $_POST['score'] = '1800';
 
     if(isset($_POST['name']) && isset($_POST['score']))
     {
